@@ -15,10 +15,10 @@ GitHub는 Git 저장소를 공유하고 협업을 돕는 플랫폼이다.
 Git은 GitHub 없이도 사용할 수 있지만, GitHub는 Git을 기반으로 동작한다. 서로 상이한 개념이자 도구이기에, 그 차이를 명확히 알고 활용하는 것이 중요하다!
 
 ## git, github에서 사용되는 어휘 정리.
-더 자세한 내용은 [03-commit-history.md](03-commit-history.md)에서 다루기로 한다. 어휘 개념에 초점을 맞춰 학습하자.
+더 자세한 내용은 [03-commit-history.md](03-commit-history.md)에서 다루기로 한다. 어휘 개념에 초점을 맞춰 학습하자.  
 
-### repository (repo)란?
 ![Git repository](img/What-is-Git-repository.webp)
+### repository (repo)란?
 Repository는 프로젝트의 파일과 변경 이력을 함께 관리하는 저장 공간이다.
 소스 코드뿐 아니라 문서, 설정 파일, 커밋 기록까지 모두 하나의 repository 단위로 관리된다.
 Git에는 개인 PC에 존재하는 **로컬** 저장소와 GitHub와 같은 서비스에 존재하는 **원격** 저장소가 있다.
@@ -29,11 +29,10 @@ Local repository는 개발자의 컴퓨터에 존재하는 Git 저장소이다.
 
 ### remote repository란?
 Remote repository는 인터넷 상에 존재하는 저장소로, 여러 개발자가 코드를 공유하기 위해 사용된다.
-GitHub는 대표적인 원격 저장소 제공 서비스이다.
+GitHub는 대표적인 원격 저장소 제공 서비스이다.  
 
-
-### add란?
 ![Git working area](img/working_area.webp)
+### add란?
 Add는 작업 디렉토리에서 변경된 파일을 커밋 대상으로 선택하는 단계이다.
 수정된 파일 중 어떤 변경을 기록할지 Git에게 알려주는 역할을 하며, 이 단계에서 선택된 파일들은 스테이징 영역(staging area) 에 올라간다.
 ```sh
