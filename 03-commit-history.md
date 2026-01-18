@@ -98,6 +98,9 @@ Git의 기본 흐름은 다음과 같다.
 # 변경된 파일을 스테이징 영역에 추가
 git add file.txt
 
+# 스테이지 위에 올라간 파일, 폴더 등을 확인 할 수 있다.
+git status
+
 # 스테이징된 변경 사항을 커밋으로 기록
 git commit -m "Add feature description"
 ```

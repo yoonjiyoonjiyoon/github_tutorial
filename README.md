@@ -3,7 +3,7 @@
 
 기술문서이지만, 딱딱하지 않은 느낌을 주기 위해 노력했습니다.😉
 
-## Commands 정리.
+## Commands 정리
 - [00-git-commands.md](00-git-commands.md) - 주로 사용하는 git 명령어를 적어놓은 표입니다.
 
 ## Index
