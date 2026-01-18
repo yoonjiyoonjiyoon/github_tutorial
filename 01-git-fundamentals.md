@@ -31,6 +31,8 @@ Local repository는 개발자의 컴퓨터에 존재하는 Git 저장소이다.
 Remote repository는 인터넷 상에 존재하는 저장소로, 여러 개발자가 코드를 공유하기 위해 사용된다.
 GitHub는 대표적인 원격 저장소 제공 서비스이다.  
 
+---
+
 ![Git working area](img/working_area.webp)
 ### add란?
 Add는 작업 디렉토리에서 변경된 파일을 커밋 대상으로 선택하는 단계이다.
@@ -40,13 +42,15 @@ git add file.txt
 git add .
 ```
 
+---
+
 ### commit이란?
 Commit은 파일의 변경 사항을 하나의 기록 단위로 저장한 것이다.
 각 커밋은 “무엇을 왜 변경했는지”에 대한 스냅샷 역할을 하며, 프로젝트의 변경 이력을 시간 순서대로 추적할 수 있게 한다.
 ```sh
 git commit -m "Add initial files"
 ```
-
+---
 
 ### push란?
 Push는 로컬 저장소의 커밋을 원격 저장소로 업로드하는 작업이다.
@@ -56,7 +60,7 @@ git push origin main
 git push -u origin main # -u 업스트림 설정 방법
 git push # 업스트림 설정시 간단하게 push
 ```
-
+---
 
 ### pull이란?
 Pull은 원격 저장소의 변경 내용을 가져와 로컬 저장소에 반영하는 작업이다.
@@ -66,7 +70,7 @@ git pull origin main
 git pull # 업스트림 설정시 간단하게 pull
 
 ```
-
+---
 
 ### clone 이란?
 Clone은 원격 저장소를 로컬 저장소로 그대로 복사하는 작업이다.
