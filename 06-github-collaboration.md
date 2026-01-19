@@ -52,13 +52,13 @@ Fork가 완료되면, 내 계정에 생성된 레포지토리에서 Clone URL을
 이 단계까지는 원본 레포에는 아무런 변화가 없으며,  
 모든 변경은 내 Fork에만 반영된다.
 
+push가 완료되면 GitHub 화면에서 Pull Request 버튼이 활성화된다.  
+이를 통해 내 Fork의 변경 내용을 원본 레포에 반영해 달라는 요청을 보낸다.
+
 ---
 
 ### 1-4. Pull Request 생성 (Upstream으로 기여 요청)
 ![alt text](/img/git-open-colabo-04.png)
-
-push가 완료되면 GitHub 화면에서 Pull Request 버튼이 활성화된다.  
-이를 통해 내 Fork의 변경 내용을 원본 레포에 반영해 달라는 요청을 보낸다.
 
 Pull Request에는 단순히 코드 변경뿐만 아니라  
 변경 이유, 배경, 확인해야 할 사항 등을 함께 작성하게 되며,  
@@ -68,7 +68,7 @@ Pull Request에는 단순히 코드 변경뿐만 아니라
 
 ## 2. GitHub를 사용한 협업의 관점 (팀 / 조직 협업)
 
-팀 프로젝트나 수업용 레포지토리에서는 보통  
+팀 프로젝트나 조직 협업에서는 보통  
 같은 저장소 안에서 Issue 단위로 작업을 나누고,  
 각 작업을 브랜치와 Pull Request로 관리한다.
 
@@ -87,7 +87,8 @@ Issue 생성 → Issue에서 브랜치 생성
 작업을 시작하기 전에 먼저 Issue를 생성한다.  
 Issue에는 작업의 목적, 필요한 변경 사항, 완료 조건 등을 정리해 작성한다.
 
-이 과정을 통해 “무엇을 왜 하는 작업인지”가 팀 전체에 공유된다.
+이 과정을 통해 “무엇을 왜 하는 작업인지”가 팀 전체에 공유된다.  
+[99-collaboration-convention-definition.md](99-collaboration-convention-definition.md) <- 컨벤션 정의는 해당 문서에 기술되어있음.
 
 ---
 
@@ -112,7 +113,7 @@ GitHub에서 안내하는 fetch 및 checkout 명령을 로컬에서 실행한다
 실제로 작업할 브랜치로 전환한다.
 
 이 시점부터 해당 브랜치에서 개발을 진행하게 된다.
-
+[99-collaboration-convention-definition.md](99-collaboration-convention-definition.md) <- 컨벤션 정의는 해당 문서에 기술되어있음.
 ---
 
 ### 2-4. 작업 후 commit / push
@@ -123,6 +124,7 @@ GitHub에서 안내하는 fetch 및 checkout 명령을 로컬에서 실행한다
 
 커밋을 남기기 전에는 항상  
 현재 브랜치가 올바른지 확인하는 습관이 중요하다.
+[99-collaboration-convention-definition.md](99-collaboration-convention-definition.md) <- 컨벤션 정의는 해당 문서에 기술되어있음.
 
 ---
 
