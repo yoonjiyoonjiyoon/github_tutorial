@@ -45,6 +45,7 @@ Git 협업의 기본 흐름은 다음과 같다.
 
 `fetch`는 `pull`과 비슷해 보이지만, **아주 중요한 차이**가 있다.
 
+![alt text](/img/git_remote_fetch.png)
 ### git fetch
 ```sh
 git fetch origin

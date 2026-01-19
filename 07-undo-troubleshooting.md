@@ -46,6 +46,7 @@ git restore --staged <파일경로>
 ---
 
 ### 커밋 기준 상태 되돌리기 (로컬 전용)
+![alt text](image.png)
 ```sh
 git reset --soft HEAD~1  # 커밋만 취소 (파일·스테이징 유지)
 git reset --mixed HEAD~1 # 커밋 + 스테이징 취소
@@ -62,6 +63,7 @@ git reset --hard HEAD~1  # 커밋 + 파일 변경 전부 삭제 (복구 불가)
 ---
 
 ###  안전한 되돌리기 (히스토리 유지)
+![alt text](image-1.png)
 ```sh
 - git revert <커밋해시>  
 - git revert HEAD  
