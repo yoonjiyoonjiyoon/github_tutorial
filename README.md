@@ -1,7 +1,6 @@
-# Git 튜토리얼
-이 저장소는 Git/GitHub 내용을 주제별 Markdown으로 정리하기 위한 공간입니다. README는 전체 인덱스와 간단한 안내를 제공합니다.  
-
-기술문서이지만, 딱딱하지 않은 느낌을 주기 위해 노력했습니다.😉
+﻿# Git 튜토리얼
+이 저장소는 Git/GitHub 내용을 주제별 Markdown으로 정리하기 위한 공간입니다.  
+README는 전체 인덱스와 간단한 안내를 제공합니다.  
 
 ## Commands 정리
 - [00-git-commands.md](00-git-commands.md) - 주로 사용하는 git 명령어를 적어놓은 표입니다.
@@ -14,6 +13,10 @@
 - [05-remote-collaboration.md](05-remote-collaboration.md) - 원격 저장소와 협업 흐름
 - [06-github-collaboration.md](06-github-collaboration.md) - PR, Issue 등 GitHub 협업 기능
 - [07-undo-troubleshooting.md](07-undo-troubleshooting.md) - 되돌리기, 복구, 문제 해결
+- [99-collaboration-convention-definition.md](99-collaboration-convention-definition.md) - 협업을 위한 컨벤션 정의.
+
 
 ## License & Contribution
-이 레포지토리는 MIT License 하에 공개됩니다.자유로운 사용, 수정, 배포가 가능하며, 편집 및 기여를 환영합니다.👍
+이 레포지토리는 MIT License 하에 공개됩니다.  
+자유로운 사용, 수정, 배포가 가능하며, 편집 및 기여를 환영합니다.👍  
+**Author : Hyeongjin Kim**
